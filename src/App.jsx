@@ -11,7 +11,7 @@ function App() {
   return <div className="min-h-screen bg-[#f5fbf7] text-[#173b32]">
     <header className="sticky top-0 z-10 border-b border-emerald-100 bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-6">
-        <Link to="/home" className="flex items-center gap-2 font-black tracking-tight text-emerald-800"><span className="grid h-10 w-10 place-items-center rounded-2xl bg-emerald-100 text-xl">✓</span><span className="text-xl">MintList<span className="text-emerald-500">.</span><small className="block text-xs font-medium tracking-normal text-slate-500">your day, a little greener</small></span></Link>
+        <Link to="/home" className="flex items-center gap-2 font-black tracking-tight text-emerald-800"><span className="grid h-10 w-10 place-items-center rounded-2xl bg-emerald-100 text-xl">✓</span><span className="text-xl">GroupPorToDoList<span className="text-emerald-500">.</span><small className="block text-xs font-medium tracking-normal text-slate-500">your day, a little greener</small></span></Link>
         <nav className="flex flex-wrap items-center justify-end gap-1 text-sm font-semibold sm:gap-2">
           <NavLink to="/home" className={navClass}>Home</NavLink><NavLink to="/tasks" className={navClass}>Tasks</NavLink><NavLink to="/groups" className={navClass}>Groups</NavLink><NavLink to="/guide" className={navClass}>Guide</NavLink><NavLink to="/users" className={navClass}>Users</NavLink><NavLink to="/developers" className={navClass}>Developers</NavLink>
         </nav>
